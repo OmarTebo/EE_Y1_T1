@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+
+\usepackage{mathtools}
+
+\title{Maths(3) Lec(5) \\ 2nd Order ODEs}
+\author{Omar Sherif EL-Tabarany}
+\date{29 Oct 2023}
+
+\begin{document}
+  \maketitle
+  \section{Solution of higher order ODEs}
+    General Form: 
+      $$ a_n \frac{d^ny}{dx^n} + a_{n-1} + ... + a_2 \frac{d^2y}{dx^2} + a_o y  = f(x)$$
+
+    2nd Order ODE:
+    $$ a_2 \frac{d^2y}{dx^2} + a_o y  = f(x) $$
+
+    General Solution:
+    $$ y_g = y_h + y_p $$
+
+     $$ ax^2 + bx + c = 0 \\ $$
+     $$ x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\\ $$
+
+    \begin{itemize}
+      \item 1) $ b^2 - 4ac > 0 $ roots are unequal and real
+      \item 2) $ b^2 - 4ac < 0 $ roots are equal and real
+      \item 3) $ b^2 - 4ac = 0 $ roots are complex
+    \end{itemize}
+\end{document}
